@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  padding: 2px;
+  width: 120px;
+  float: left;
+}
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  float: left;
+  background: white;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+.cart-link {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  color: #C5081C;
+}
+
+.container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-products{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #697272;
+}
+
+.box {  
+  cursor: pointer;  
+  height: 250px;  
+  float: left;  
+  margin: 5px;
+  padding: 8px;
+  position: relative;  
+  overflow: hidden;  
+  width: 250px;  
+}  
+  
+ .box img {  
+   position: absolute;
+   border-radius: 5px;
+   left: 0;
+   width: 250px;
+   height: 250px;
+   -webkit-transition: all 300ms ease-out;  
+   -moz-transition: all 300ms ease-out;  
+   -o-transition: all 300ms ease-out;  
+   -ms-transition: all 300ms ease-out;  
+   transition: all 300ms ease-out;  
+}  
+
+.box .caption {  
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.8);  
+  position: absolute;  
+  color: #697272;  
+  z-index: 100;  
+  -webkit-transition: all 300ms ease-out;  
+  -moz-transition: all 300ms ease-out;  
+  -o-transition: all 300ms ease-out;  
+  -ms-transition: all 300ms ease-out;  
+  transition: all 300ms ease-out;  
+  left: 0;  
+  opacity: 0;  
+  width: 250px;  
+  height: 250px;
+}
+
+.box .caption p{
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.box .caption h3{
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+.box:hover .fade-caption {
+  opacity: 1;
+}
+
+.login-name{
+  position: relative;
+  left: 320;
+}
+
+input[type="text"] {
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="password"] {
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[placeholder] {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
